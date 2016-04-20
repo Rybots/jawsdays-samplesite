@@ -20,6 +20,6 @@ deployment:
   staging:
     branch: staging
     commands:
-      - aws s3 sync html/ s3://atg.amazon-merukari/ --delete
+      - aws s3 sync html/ s3://stg.amazon-merukari/ --delete
 
 
